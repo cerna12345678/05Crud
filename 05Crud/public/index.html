@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Naruto</title>
+</head>
+<body class="registro">
+    <a href="/getUsuarios"><div class="hyuga"></div></a>
+    <a href="/casiEliminarUsuarios"><div class="uzumaki"></div></a>
+    <div class="tituloAgregar">Agregar</div>
+    <div class="contenedorRegistro">
+        <form action="/agregarUsuario" method="post">
+            <label class="labelPersonaje">Nombre</label>
+            <input class="inputPersonaje" type="text" name="nombre" id="nombre" onkeypress="return SoloLetras(event);" placeholder="Deidara" maxlength="10">
+            <label class="labelEnergia">Energía</label>
+            <input class="inputEnergia" type="text" name="energia" id="energia" onkeypress="return SoloLetras(event);" placeholder="Tierra" maxlength="8">
+            <label class="labelAldea">Aldea</label>
+            <input class="inputAldea" type="text" name="aldea" id="aldea" onkeypress='return SoloLetras(event);' placeholder="Aldea escondida entre las Rocas" maxlength="40">
+            <input class="botonRegistro" type="submit" value="Agregar Personaje" >
+        </form>
+    </div>
+</body>
+<script src="./js/validacion.js"></script>
+</html>

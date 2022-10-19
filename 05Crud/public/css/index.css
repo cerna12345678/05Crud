@@ -1,0 +1,262 @@
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+.contenedorRegistro{
+    position: absolute;
+    top: 120px;
+    left: 100px;
+    width: 350px;
+    height: 410px;
+    background-color: rgb(114, 134, 118);
+    border-radius: 50px;
+    padding: 40px;
+    border: 2px solid black;
+}
+.registro{
+    background-image: url(../img/fondoNaruto.png);
+}
+.labelPersonaje{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    font-weight: 500;
+    color: black;
+    width: 150px;
+    height: 50px;
+    font-size: 26px;
+}
+.labelEnergia{
+    position: absolute;
+    top: 160px;
+    left: 40px;
+    font-weight: 500;
+    color: black;
+    width: 150px;
+    height: 50px;
+    font-size: 26px;
+}
+.labelAldea{
+    position: absolute;
+    top: 280px;
+    left: 40px;
+    font-weight: 500;
+    color: black;
+    width: 150px;
+    height: 50px;
+    font-size: 26px;
+}
+.inputPersonaje{
+    position: absolute;
+    top: 90px;
+    left: 40px;
+    color: black;
+    border-radius: 30px;
+    width: 300px;
+    height: 40px;
+    font-size: 18px;
+    padding-left: 20px;
+}
+.inputEnergia{
+    position: absolute;
+    top: 210px;
+    left: 40px;
+    color: black;
+    border-radius: 30px;
+    width: 300px;
+    height: 40px;
+    font-size: 18px;
+    padding-left: 20px;
+}
+.inputAldea{
+    position: absolute;
+    top: 330px;
+    left: 40px;
+    color: black;
+    border-radius: 30px;
+    width: 300px;
+    height: 40px;
+    font-size: 18px;
+    padding-left: 20px;
+}
+.botonRegistro{
+    position: absolute;
+    top: 406px;
+    left: 120px;
+    color: black;
+    border-radius: 30px;
+    width: 180px;
+    height: 50px;
+    font-size: 18px;
+    text-align: center;
+    background-color:rgb(196, 223, 208);
+    
+}
+.botonRegistro:hover{
+    background-color:aliceblue;
+    cursor: pointer;
+}
+.consulta{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/fondoHinata.png);
+}
+.contenedorTabla1{
+    position: absolute;
+    top: 140px;
+    left: 100px;
+    width: 500px;
+    height: auto;
+    background-color: rgb(184, 168, 194);
+    border-radius: 50px;
+    padding: 40px;
+    border: 2px solid black;
+}
+.tabla1{
+    position: relative;
+    background-color: aliceblue;
+    width: 494px;
+    border-collapse: collapse;
+    border: 2px solid black;
+    border-spacing: 0px;
+    
+}
+.tabla1 th{
+    background-color: rgb(74, 45, 128);
+    color: aliceblue;
+    padding: 10px;
+    border: 2px solid black;
+    border-bottom: 3px solid black;
+}
+td{
+    border: 1px solid black;
+}
+.uzumaki{
+    position: absolute;
+    left: 1200px;
+    top:  40px;
+    width: 80px;
+    height: 80px;
+    background-image: url(../img/logo_uzumaki.png);
+}
+.uchiha{
+    position: absolute;
+    left: 1200px;
+    top:  150px;
+    width: 80px;
+    height: 80px;
+    background-image: url(../img/logo_mangekyo.png);
+}
+.hyuga{
+    position: absolute;
+    left: 1200px;
+    top:  150px;
+    width: 80px;
+    height: 80px;
+    background-image: url(../img/logo_byakugan.png);
+}
+.eliminar{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/fondoItachi.png);
+}
+.contenedorTabla2{
+    position: absolute;
+    top: 50px;
+    left: 550px;
+    width: 500px;
+    height: auto;
+    background-color: rgb(63, 62, 62);
+    border-radius: 50px;
+    padding: 40px;
+    border: 2px solid black;
+}
+.tabla2{
+    position: relative;
+    background-color: aliceblue;
+    width: 494px;
+    border-collapse: collapse;
+    border: 2px solid black;
+    border-spacing: 0px;
+    
+}
+.tabla2 th{
+    background-color: rgb(153, 59, 59);
+    color: aliceblue;
+    padding: 10px;
+    border: 2px solid black;
+    border-bottom: 3px solid black;
+}
+.contenedorTabla3{
+    position: absolute;
+    top: 500px;
+    left: 700px;
+    width: 230px;
+    height: 50px;
+    background-color: rgb(63, 62, 62);
+    border-radius: 50px;
+    padding: 20px;
+    border: 2px solid black;
+}
+.inputEliminar{
+    position: absolute;
+    top: 16px;
+    border-radius: 50px;
+    width: 60px;
+    height: 50px;
+    padding-left: 30px;
+    font-size: 20px;
+}
+.botonEliminar{
+    position: absolute;
+    border-radius: 50px;
+    left: 130px;
+    top: 16px;
+    width: 120px;
+    height: 58px;
+    font-weight: 500;
+    font-size: 20px;
+}
+.botonEliminar:hover{
+    background-color: crimson;
+    color: aliceblue;
+    cursor: pointer;
+}
+.tituloAgregar{
+    position: absolute;
+    left: 220px;
+    top: 30px;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    font-weight: 500;
+}
+.tituloConsultar{
+    position: absolute;
+    left: 280px;
+    top: 50px;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    font-weight: 500;
+}
+.tituloEliminar{
+    position: absolute;
+    left: 380px;
+    top: 240px;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    font-weight: 500;
+    -webkit-transform: rotate(-90deg); 
+    -moz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
